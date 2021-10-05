@@ -1,18 +1,18 @@
 public class Pictures {
     public static void angryDog(){
-        System.out.println("  _.       ._\t\t");
-        System.out.println("  |\\\\___  //|   \t");
-        System.out.println("  | )   `(/ |   |\t");
-        System.out.println("  |/      \\ |  /|\t");
-        System.out.println("  / _   _  `|_ ||\t");
-        System.out.println("  | O)  O   ) \\||\t");
-        System.out.println("  \\        /  | |\t");
-        System.out.println(" / \\ Y   /'   | \\\t");
-        System.out.println(" |  `._/' |   |  \\\t");
-        System.out.println(" |  |`-._/   /    \\\t");
-        System.out.println(" \\  \\   /   / \\_.  \\\t");
-        System.out.println("  \\  \\ |   /    |  |\t");
-        System.out.println("   \\uU \\UU/     |  /\t");
+        System.out.println("       _.       ._\t\t");
+        System.out.println("       |\\\\___  //|   \t");
+        System.out.println("       | )   `(/ |   |\t");
+        System.out.println("       |/      \\ |  /|\t");
+        System.out.println("       / _   _  `|_ ||\t");
+        System.out.println("       | O)  O   ) \\||\t");
+        System.out.println("       \\        /  | |\t");
+        System.out.println("      / \\ Y   /'   | \\\t");
+        System.out.println("      |  `._/' |   |  \\\t");
+        System.out.println("      |  |`-._/   /    \\\t");
+        System.out.println("      \\  \\   /   / \\_.  \\\t");
+        System.out.println("       \\  \\ |   /    |  |\t");
+        System.out.println("        \\uU \\UU/     |  /\t");
     }
     public static void normalDog(){
         System.out.println("            \t          _");
