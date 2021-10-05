@@ -1,18 +1,22 @@
 public class Tamagotchi {
+    public String type;
     public String name;
     public int age;
     public int mood;
     public int energy;
-    public Tamagotchi(String name, int age, int mood, int energy){
+    public Tamagotchi(String name,String type, int age, int mood, int energy){
         this.name = name;
+        this.type = type;
         this.age = age;
         this.mood = mood;
         this.energy = energy;
     }
+
     @Override
     public String toString() {
         return "Tamagotchi{" +
-                "name='" + name + '\'' +
+                "type='" + type + '\'' +
+                ", name='" + name + '\'' +
                 ", age=" + age +
                 ", mood=" + mood +
                 ", energy=" + energy +
@@ -21,14 +25,15 @@ public class Tamagotchi {
 }
 
 class Cat extends Tamagotchi{
-    public Cat(String name, int age, int mood, int energy){
-        super(name, age, mood, energy);
+    public Cat(String name, String type, int age, int mood, int energy){
+        super(name, type, age, mood, energy);
     }
 
     @Override
     public String toString() {
         return "Cat{" +
-                "name='" + name + '\'' +
+                "type='" + type + '\'' +
+                ", name='" + name + '\'' +
                 ", age=" + age +
                 ", mood=" + mood +
                 ", energy=" + energy +
@@ -37,14 +42,16 @@ class Cat extends Tamagotchi{
 }
 
 class Dog extends Tamagotchi{
-    public Dog(String name, int age, int mood, int energy){
-        super(name, age, mood, energy);
+    public Dog(String name, String type, int age, int mood, int energy){
+        super(name, type, age, mood, energy);
     }
+
 
     @Override
     public String toString() {
         return "Dog{" +
-                "name='" + name + '\'' +
+                "type='" + type + '\'' +
+                ", name='" + name + '\'' +
                 ", age=" + age +
                 ", mood=" + mood +
                 ", energy=" + energy +
